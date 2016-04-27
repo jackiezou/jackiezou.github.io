@@ -1,0 +1,348 @@
+.background img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+}
+#title {
+  font-size: 100px;
+  position: absolute;
+  z-index: 2;
+  color: #A6C4A2;
+  margin-top: 150px;
+  font-family: raleway;
+  font-weight: bold;
+  font-kerning: : 10;
+  text-align: center;
+  margin-left: 29%;
+}
+#subhead {
+  font-family: raleway;
+  z-index: 2;
+  color: white;
+  position: absolute;
+  margin-top: 300;
+  text-align: center;
+  width: 450px;
+  margin-left: 500px;
+  font-size: 15px;
+}
+#head {
+  font-family: raleway;
+  z-index: 2;
+  color: white;
+  position: absolute;
+  margin-top: 265;
+  text-align: center;
+  width: 450px;
+  margin-left: 500px;
+  font-size: 22px;
+}
+#getstitched {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  color: white;
+  z-index: 20;
+  font-family: raleway;
+  font-size: 40px;
+  margin-left: 590;
+  margin-top: 340;
+}
+.button a:hover {
+  color: white;
+  opacity: 1;
+  transition: .3s;
+}
+.button a{
+  text-decoration: none;
+  color: #FFC485;
+  opacity: .4;
+
+}
+
+/*<!--maker page-->*/
+
+#link {
+  font-family: raleway;
+
+}
+#overlay {
+  background-color: black;
+  opacity: .5;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+}
+#link {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  color: grey;
+  margin-top: 10px;
+  margin-left: 15px;
+  z-index: 20;
+  font-family: raleway;
+  font-size: 30px;
+  text-decoration: none;
+}
+#link:hover {
+  color: white;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+}
+.pillow img {
+  position: absolute;
+  z-index: 20;
+  margin-left: 33%;
+  margin-top: 8%;
+
+}
+ #textinput textarea {
+  position: absolute;
+  font-family: 'press start 2p';
+  z-index: 30;
+  background: rgba(0,0,0,0);
+  color: #98462c;
+  margin-left: 41%;
+  margin-top: 17%;
+  outline: none;
+  resize: none;
+  font-size: 21px;
+  text-align: center;
+  border: none;
+  overflow:auto;
+  outline: none;
+}
+.modal-content {
+  font: 'press start 2p';
+}
+#modal-container {
+  height: 100%;
+  width: 100%;
+}
+#modal-box {
+  background-color: rgb(38, 12, 12, .8);
+  height: 570px;
+  width: 500px;
+  text-align: center;
+  font-family: raleway;
+  position: absolute;
+  margin-top: -720px;
+  margin-left: 470px;
+  z-index: 50;
+  color: white;
+}
+#modal-header {
+  font-size: 30px;
+  font-weight: 500;
+}
+#send:hover {
+  color: white;
+  opacity: 1;
+  transition: .3s;
+}
+
+#send {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(0,0,0,0);
+  opacity: .5;
+  height: 40px;
+  width: 150px;
+  margin-left: 50px;
+  margin-top: 430px;
+  padding-top: 12px;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+}
+#cancel:hover {
+  color: white;
+  opacity: 1;
+  transition: .3s;
+}
+#cancel {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(0,0,0,0);
+  position:  absolute;
+  height: 40px;
+  width: 150px;
+  margin-left: 300px;
+  margin-top: -55px;
+  text-align: center;
+  padding-top: 12px;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  opacity: .5;
+
+}
+#sendtofriend {
+  background-color: rgb(0,0,0,0);
+  height: 40px;
+  width: 200px;
+  position: absolute;
+  z-index: 50;
+  margin-top: 610px;
+  margin-left: 620px;
+  text-align: center;
+  padding-top: 17px;
+  font-family: raleway;
+  cursor: pointer;
+  color: white;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  opacity: .5;
+}
+#sendtofriend:hover {
+  color: white;
+  opacity: 1;
+  transition: .3s;
+}
+#modal-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.modal {
+  display: none;
+}
+.email {
+  font-family: raleway;
+  height: 25px;
+  width: 200px;
+  outline: none;
+  background-color: rgb(0,0,0,0);
+}
+
+#modal-content input [type="text"] {
+  background: rgba(0,0,0,0);
+  color: white;
+}
+#success {
+  font-family: raleway;
+  height: 40px;
+  width: 400px;
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+  z-index: 110;
+  margin-top: -480px;
+  margin-left: 530
+}
+#message {
+  background-color:black;
+  opacity: .7;
+  color: white;
+  padding: 10;
+}
+#confirm {
+  background-color: rbg(0,0,0,0);
+  color: black;
+  opacity: .5;
+  padding: 5;
+  cursor: pointer;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+#confirm:hover {
+  color: black;
+  opacity: 1;
+  transition: .3s;
+}
+.success {
+  display: none;
+}
+
+#learnmore {
+  font-family: raleway;
+  position: absolute;
+  z-index: 5;
+  margin-top: -70px;
+  margin-left: 685;
+}
+/*<!--learn more page-->*/
+
+.questions {
+  font-family: 'press start 2p';
+  position: absolute;
+  z-index: 20;
+  margin-top: 260px;
+}
+
+.answers {
+  font-family: 'press start 2p';
+  position: absolute;
+  z-index: 20;
+  margin-top: 330px;
+}
+
+#who {
+  margin-top: 130px;
+  margin-left: 630px;
+  background-color: rgb(0,0,0,0);
+  cursor: pointer;
+  height: 20px;
+  width: 500px;
+
+}
+
+#why {
+  margin-left: 265px;
+  background-color: rgb(0,0,0,0);
+  cursor: pointer;
+  height: 20px;
+  width: 500px;
+}
+
+#how {
+  margin-left: 850px;
+  margin-top: -13px;
+  background-color: rgb(0,0,0,0);
+  cursor: pointer;
+  height: 20px;
+  width: 500px;
+}
+
+#whoa {
+  margin-top: 130px;
+  margin-left: 620px;
+}
+
+#whya {
+  margin-left: 250px;
+  margin-top: -35px;
+}
+
+#howa {
+  margin-left: 840px;
+  margin-top: -13px;
+}
+
+.answers {
+  display: none;
+}
+
+.socialmedia {
+  position: absolute;
+  z-index: 100;
+  margin-top: -50px;
+  margin-left: 89%;
+  opacity: .6;
+}
+
+.socialmedia:hover {
+  opacity: 1;
+}
+#connectwithus {
+  font-family: raleway;
+  color: white;
+  position: absolute;
+  z-index: 100;
+  margin-left: 89.3%;
+  margin-top: -64px;
+  font-size: 11px;
+}
